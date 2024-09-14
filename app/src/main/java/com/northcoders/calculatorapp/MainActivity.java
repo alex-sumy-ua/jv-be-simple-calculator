@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     String getResult(String data) {
-//        return "Calculated";
+
         try {
             Context context = Context.enter();
             context.setOptimizationLevel(-1);
@@ -112,6 +112,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } catch (Exception e) {
             return "Err";
         }
+        
     }
 
 }
